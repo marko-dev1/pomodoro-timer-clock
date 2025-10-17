@@ -3,6 +3,7 @@ How to Run Locally
 Clone the repository
 
 git clone https://github.com/marko-dev1/pomodoro-timer-clock.git
+
 cd pomodoro-timer
 
 
@@ -20,7 +21,9 @@ npm start
 You can package and install the Pomodoro Timer as a desktop application using Electron Builder or Electron Packager.
 
 Example with Electron Packager:
+
 npm install -g electron-packager
+
 electron-packager . PomodoroTimer --platform=win32 --arch=x64 --icon=icon.ico --out=dist --overwrite
 
 
