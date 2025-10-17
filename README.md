@@ -4,7 +4,7 @@ Clone the repository
 
 git clone https://github.com/marko-dev1/pomodoro-timer-clock.git
 
-cd pomodoro-timer
+cd pomodoro-timer-clock
 
 
 Install dependencies
