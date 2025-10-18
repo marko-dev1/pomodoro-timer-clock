@@ -24,7 +24,9 @@ Example with Electron Packager:
 
 npm install -g electron-packager
 
-electron-packager . PomodoroTimer --platform=win32 --arch=x64 --icon=icon.ico --out=dist --overwrite
+electron-packager . 
+
+PomodoroTimer --platform=win32 --arch=x64 --icon=icon.ico --out=dist --overwrite
 
 
 This creates an executable file (e.g., PomodoroTimer.exe on Windows) in the dist/ folder that you can install and run just like any other app.
